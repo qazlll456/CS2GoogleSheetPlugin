@@ -14,7 +14,7 @@ Money, Steam games, or any valuable contribution is welcome.
 ## Features
 - **Get Data**: Retrieve data from a specified cell (`css_gsget`).
 - **Set Data**: Write data to a specified cell (`css_gsset "value"`).
-- **Append Data**: Append data to the existing cell content (`css_gsadd "value"`).
+- **Add Data**: Add data to the existing cell content (`css_gsadd "value"`).
 - **Remove Data**: Remove specific data from the cell (`css_gsremove "value"`).
 - **Check Connection**: Verify connection to Google Sheets API (`css_gs_connect`).
 
