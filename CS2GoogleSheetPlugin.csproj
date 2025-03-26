@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+     <OutputType>Library</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="CounterStrikeSharp.API" Version="1.0.310" />
+      <PackageReference Include="Google.Apis.Sheets.v4" Version="1.69.0.3694" />
+      <PackageReference Include="Google.Apis.Core" Version="1.69.0" />
+      <PackageReference Include="Google.Apis" Version="1.69.0" />
+      <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Update="fluid-firefly-454703-e1-875afcc07446.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+          <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      </None>
+  </ItemGroup>
+
+</Project>
