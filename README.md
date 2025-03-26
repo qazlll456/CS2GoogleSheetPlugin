@@ -100,6 +100,9 @@ Before installing the plugin, ensure you have the following:
 ## Configuration
 The plugin generates a `CS2GoogleSheetPlugin.json` file in `csgo/addons/counterstrikesharp/configs/plugins/CS2GoogleSheetPlugin/` with the following structure:
 
+### Example with Instructions
+This example includes detailed instructions for setting up each field:
+
 ```json
 {
   "GoogleSheetSettings": {
@@ -125,6 +128,27 @@ The plugin generates a `CS2GoogleSheetPlugin.json` file in `csgo/addons/counters
     "CacheDurationMinutes": 2,
     // Enables or disables debug logging. When true, detailed logs (e.g., 'Executing command', 'Fetching data') are printed to the console. Set to false to reduce log output.
     "DebugLog": true
+  }
+}
+```
+
+### Example without Instructions
+This example shows a typical configuration after setup, without the instructional comments:
+
+```json
+{
+  "GoogleSheetSettings": {
+    "SpreadsheetId": "1FghF4Thzj-bDxqWaQrelqNH8zfIKl0ErfvKijs9P3SM",
+    "SheetName": "Sheet1",
+    "CellName": "A1"
+  },
+  "CredentialsSettings": {
+    "JsonFilePath": "/home/dathost/cs2_linux/game/csgo/addons/counterstrikesharp/plugins/CS2GoogleSheetPlugin/",
+    "JsonFileName": "fluid-firefly-454703-e1-875afcc07446.json"
+  },
+  "PluginSettings": {
+    "CacheDurationMinutes": 5,
+    "DebugLog": false
   }
 }
 ```
