@@ -6,10 +6,12 @@
 - **Author**: qazlll456 from HK with xAI assistance
 - **Description**: A CounterStrikeSharp plugin for CS2 that allows interaction with Google Sheets, enabling server administrators to get, set, append, and remove data from a specified cell in a Google Sheet. This plugin demonstrates the potential of integrating Google Sheets with CS2 servers, allowing for dynamic data management, such as storing player stats, server logs, or other game-related information in a cloud-based spreadsheet.
 
-## Support
-If you enjoy this plugin, consider supporting my work!  
-Money, Steam games, or any valuable contribution is welcome.  
-[Donate - Streamlabs, PayPal](https://streamlabs.com/BKCqazlll456/tip)
+## Donate
+If you enjoy it and find it helpful, consider donating to me! Every bit helps me keep developing.
+Money, Steam games, or any valuable contribution is welcome.
+- **Ko-fi**: [Support on Ko-fi](https://ko-fi.com/qazlll456)
+- **Patreon**: [Become a Patron](https://www.patreon.com/c/qazlll456)
+- **Streamlabs**: [Tip via Streamlabs](https://streamlabs.com/BKCqazlll456/tip)
 
 ## Features
 - **Get Data**: Retrieve data from a specified cell (`css_gsget`).
