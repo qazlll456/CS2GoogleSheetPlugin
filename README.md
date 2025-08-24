@@ -140,13 +140,13 @@ This example shows a typical configuration after setup, without the instructiona
 ```json
 {
   "GoogleSheetSettings": {
-    "SpreadsheetId": "1FghF4Thzj-bDxqWaQrelqNH8zfIKl0ErfvKijs9P3SM",
+    "SpreadsheetId": "0000000000000000000000000",
     "SheetName": "Sheet1",
     "CellName": "A1"
   },
   "CredentialsSettings": {
     "JsonFilePath": "/home/dathost/cs2_linux/game/csgo/addons/counterstrikesharp/plugins/CS2GoogleSheetPlugin/",
-    "JsonFileName": "fluid-firefly-454703-e1-875afcc07446.json"
+    "JsonFileName": "0000000000000000000000000.json"
   },
   "PluginSettings": {
     "CacheDurationMinutes": 5,
